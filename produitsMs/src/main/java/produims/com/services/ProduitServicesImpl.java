@@ -3,9 +3,11 @@ package produims.com.services;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import produims.com.dto.ProduitRequestDto;
+
 import produims.com.dto.ProduitResponseDto;
 import produims.com.entities.Produits;
 
+import produims.com.exceptions.ProduitEnixistant;
 import produims.com.mappers.ProduitsMapper;
 import produims.com.repositories.ProduitsRepo;
 
@@ -35,7 +37,7 @@ public class ProduitServicesImpl  implements  ProduitService{
     @Override
     public ProduitResponseDto getProduit(int id) {
         Produits produit = produitsRepo.findById(id).get();
-
+   if (produit == null) throw new ProduitEnixistant("Aucun produit n'est disponible à la vente avec cette id");
         return produitsMapper.fromProduits(produit);
     }
 
