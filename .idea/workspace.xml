@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3d899133-aa37-4d28-8392-ea4d712074a5" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/produitsMs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produitsMs/src/main/java/produims/com/mappers/ProduitsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/src/main/java/produims/com/mappers/ProduitsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/produitsMs/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2GPCv7YlFLAOKlYjSAKr06FOSlI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\les etudes\entrainement et autoforamtion\microServiceOpenClassRom\microServicesPaiment\produitsMs\src\main\java\produims\com\dto" />
+      <recent name="E:\les etudes\entrainement et autoforamtion\microServiceOpenClassRom\microServicesPaiment\produitsMs\src\main\java\produims\com\exceptions" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3d899133-aa37-4d28-8392-ea4d712074a5" name="Default Changelist" comment="" />
+      <created>1666281059665</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666281059665</updated>
+      <workItem from="1666281061403" duration="13000" />
+      <workItem from="1666531403789" duration="164000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+</project>
