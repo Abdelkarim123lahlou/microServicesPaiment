@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d899133-aa37-4d28-8392-ea4d712074a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/produitsMs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produitsMs/src/main/java/produims/com/mappers/ProduitsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/src/main/java/produims/com/mappers/ProduitsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/produitsMs/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/produitsMs/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/src/main/java/com/commandems/commandems/CommandemsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/src/main/java/com/commandems/commandems/entities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commandems/src/test/java/com/commandems/commandems/CommandemsApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,10 +53,18 @@
       <updated>1666281059665</updated>
       <workItem from="1666281061403" duration="13000" />
       <workItem from="1666531403789" duration="164000" />
+      <workItem from="1667054566374" duration="3777000" />
+      <workItem from="1667139644827" duration="2174000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="360" y="73" key="new project wizard" timestamp="1667056649449">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="360" y="73" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1667056649449" />
   </component>
 </project>
