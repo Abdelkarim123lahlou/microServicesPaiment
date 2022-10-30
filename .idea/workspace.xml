@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d899133-aa37-4d28-8392-ea4d712074a5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/gradlew" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/gradlew.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/settings.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/src/main/java/com/commandems/commandems/CommandemsApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/src/main/java/com/commandems/commandems/entities.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/commandems/src/test/java/com/commandems/commandems/CommandemsApplicationTests.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3d899133-aa37-4d28-8392-ea4d712074a5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +41,7 @@
       <workItem from="1666281061403" duration="13000" />
       <workItem from="1666531403789" duration="164000" />
       <workItem from="1667054566374" duration="3777000" />
-      <workItem from="1667139644827" duration="2174000" />
+      <workItem from="1667139644827" duration="2795000" />
     </task>
     <servers />
   </component>
