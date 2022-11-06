@@ -17,6 +17,8 @@ public class Produits {
     @GeneratedValue
     private int id;
 
+    private int idCommande;
+
     private String titre;
 
     private String description;
