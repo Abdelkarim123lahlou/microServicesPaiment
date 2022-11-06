@@ -51,6 +51,7 @@ public class ProduitServicesImpl  implements  ProduitService{
             ProduitResponseDto produitResponseDto=produitsMapper.fromProduits(produit);
             produitResponseDtos.add(produitResponseDto);
         }
-        return null;
+        return produitResponseDtos;
     }
+
 }

@@ -2,14 +2,15 @@ package produims.com.web;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+import produims.com.dto.ProduitRequestDto;
 import produims.com.dto.ProduitResponseDto;
 import produims.com.exceptions.ProduitEnixistant;
 import produims.com.repositories.ProduitsRepo;
 import produims.com.services.ProduitService;
+
+import java.util.List;
+
 @RestController
 @RequestMapping(path = "/api")
 public class ProduitConroller {
@@ -23,10 +24,15 @@ public class ProduitConroller {
     public ProduitResponseDto recupereProduitResponseDto(int id){
            ProduitResponseDto produitResponseDto = produitService.getProduit(id);
         return  produitResponseDto;
-
-
     }
-
+    @GetMapping(value = "/produits")
+    public List<ProduitResponseDto> getAllProducts(){
+        return produitService.getTousProd();
+    }
+@PostMapping(value = "/saveProduct")
+    public ProduitResponseDto saveProduct(ProduitRequestDto produitRequestDto){
+        return produitService.save(produitRequestDto);
+    }
 
 
 }
