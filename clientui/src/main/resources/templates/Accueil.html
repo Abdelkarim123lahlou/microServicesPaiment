@@ -18,18 +18,19 @@
         <!--
         Boucle sur tous les objets de type "produit" de la liste et affichage des informations produit.
         -->
-        <div th:each="produit : ${prod}" class="col-md-4 my-1">
-            <a th:href="@{|/details-produit/${produit.id}|}" >
-                <img th:src="${produit.image}"  class="card-img-top" />
-                <p th:text= "${produit.titre}"></p>
-            </a>
-        </div>
-    </div>
+        <!--/*@thymesVar id="produits" type=""*/-->
+        <div th:each="produit : ${produits}" class="col-md-4 my-1">
+            <a th:href="@{|/Produits/${produit.id}|}" >
+                <!-- <img th:src="${produit.image}"  class="card-img-top" />
+                 <p th:text= "${produit.titre}"></p>-->
+             </a>
+         </div>
+     </div>
 
-</div>
+ </div>
 
 
-<script type="text/javascript" src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
+ <script type="text/javascript" src="webjars/bootstrap/4.0.0-2/js/bootstrap.min.js"></script>
 
-</body>
-</html>
+ </body>
+ </html>
