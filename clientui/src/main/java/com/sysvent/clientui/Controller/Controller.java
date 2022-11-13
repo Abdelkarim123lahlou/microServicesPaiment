@@ -13,13 +13,13 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.sql.Date;
+import java.util.Date;
 import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 @RestController
 public class Controller {
-private final MicroServiceProduitProxy produitProxy;
+    private  MicroServiceProduitProxy produitProxy;
 
 
     private MicroserviceCommandeProxy CommandesProxy;
@@ -36,7 +36,7 @@ private final MicroServiceProduitProxy produitProxy;
     @RequestMapping("/")
     public String accueil(Model model)
     {
-        List<ProduitBean> produits =  produitProxy.getTousProd();
+        List<ProduitBean> produits =  produitProxy.getAllProducts();
         model.addAttribute("produits", produits);
         return "Accueil";
 

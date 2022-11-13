@@ -21,8 +21,8 @@ public interface MicroServiceProduitProxy {
      *
      * @return tous les produit existant dans la base de données
      */
-    @GetMapping(value = "/api/Produits")
-    List<ProduitBean> getTousProd();
+    @GetMapping(value = "/Produits")
+    List<ProduitBean> getAllProducts();
 
     /**
      *
