@@ -12,7 +12,7 @@ import java.util.List;
  * définir le client feign de microservice produit (sera le point
  * d'entrée du MS produit à l'application=> joue le role d'un proxie)
  */
-@FeignClient(name = "PRODUIT-SERVICE", url = "localhost:8087")
+@FeignClient(name = "PRODUIT-SERVICE", url = "localhost:8087" , decode404 = true)
 /***
  * l'interface MicroServiceProduitProxy pour définir les différentes méthodes pour communiquer avec le MS produit
  */
